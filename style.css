@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:ital,wght@0,300;1,500&family=Rubik&display=swap");
+/* Sass Template*/
+/*global Classes*/
+button, button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/*typography class*/
+.font-roboto {
+  font-family: "Roboto", cursive;
+}
+
+.font-rale {
+  font-family: "Raleway", cursive;
+}
+
+.font-rubik {
+  font-family: "Rubik", cursive;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.font-size-50 {
+  font-size: 50px;
+}
+
+.font-size-40 {
+  font-size: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*Coor Template*/
+.color-primary {
+  color: #212529;
+}
+
+.color-primary-bg {
+  background: #212529;
+}
+
+.color-second {
+  color: #c2c2ca;
+}
+
+.color-second-bg {
+  background: #c2c2ca;
+}
+
+/*Top sale Template*/
+#top-sale .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#top-sale .owl-carousel .item .product img {
+  transition: transform 0.5s ease;
+}
+#top-sale .owl-carousel .item .product img:hover {
+  transform: scale(1.1);
+}
+#top-sale .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span,
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+  font-size: 35px;
+  color: #212529;
+  padding: 0 1rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+  margin-right: -4rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span {
+  margin-left: -4rem;
+}
+
+/*Special-price TEmplate*/
+#special-price .grid .grid-item {
+  margin-top: 1.5rem;
+  margin-right: 1rem;
+}
+
+/*New Clothes Templates */
+#new-clothes .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#new-clothes .owl-carousel .item .product img {
+  transition: transform 0.5s ease;
+}
+#new-clothes .owl-carousel .item .product img:hover {
+  transform: scale(1.1);
+}
+#new-clothes .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+#new-clothes .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+#new-clothes .owl-carousel .owl-nav button.owl-prev span,
+#new-clothes .owl-carousel .owl-nav button.owl-next span {
+  font-size: 35px;
+  color: #212529;
+  padding: 0 1rem;
+}
+#new-clothes .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+#new-clothes .owl-carousel .owl-nav button.owl-next span {
+  margin-right: -4rem;
+}
+#new-clothes .owl-carousel .owl-nav button.owl-prev span {
+  margin-left: -4rem;
+}
+
+/*Nav Bar Template*/
+.navbar {
+  position: absolute;
+  background: transparent !important;
+  width: 100%;
+  z-index: 10;
+  border-bottom: 1px #c2c2ca;
+}
+
+.navbar-nav .nav-link a {
+  font-weight: 600;
+}
+
+.carousel-control-prev {
+  background-image: none;
+}
+
+/*# sourceMappingURL=style.css.map */

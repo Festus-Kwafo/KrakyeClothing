@@ -1,0 +1,17 @@
+/*Nav Bar Template*/
+.navbar{
+    position: absolute;
+    background: transparent !important;
+    width: 100%;
+    z-index: 10;
+    border-bottom: 1px $color-second;
+}
+
+.navbar-nav .nav-link a{
+    
+    font-weight: 600;
+}
+
+.carousel-control-prev{
+    background-image: none;
+}
