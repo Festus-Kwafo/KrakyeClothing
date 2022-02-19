@@ -15,7 +15,9 @@
     .item{
         width: 160px !important;
     }
-
+    #top-bar{
+        display: none;
+    }
 }
 @media only screen and (min-width : 1002px){
     .nav-item-hidden{
@@ -50,7 +52,7 @@
     .navbar-collapse.show{
         visibility: visible;
         transform: translateX(-100%);
-        width: 50%;
+        width: 100%;
         align-items: center;
     }
 

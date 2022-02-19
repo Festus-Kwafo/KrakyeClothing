@@ -22,28 +22,32 @@
 <body>
   <!--Header-->
   <header id="header">
-    <div class="strip d-flex justify-content-between px-4 py-1 bg-dark">
-      <p></p>
-      <div class="font-rale font-size-14">
-        <a href="#" class="px-3 font-size-16 border-left"><i class="fa-solid fa-user text-light"></i></a>
-        <a href="" class="px-3 border-right border-left text-light text-decoration-none">Contact</a>
-        <a href="" class="px-3 border-right text-light text-decoration-none">Wishlist</a>
+    <section id="top-bar">
+      <div class="strip d-flex justify-content-between px-4 py-1 bg-dark">
+        <p></p>
+        <div class="font-rale font-size-14">
+          <a href="#" class="px-3 font-size-16 border-left"><i class="fa-solid fa-user text-light"></i></a>
+          <a href="" class="px-3 border-right border-left text-light text-decoration-none">Contact</a>
+          <a href="" class="px-3 border-right text-light text-decoration-none">Wishlist</a>
+        </div>
       </div>
-    </div>
+    </section>
     <!--Primary Navbar-->
     <nav class="px-5 navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand" href=""><img src="/assets/logo2.png" width="30px" height="40px" alt="logo"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-trigger="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="border-0" style="color: aliceblue; border: 0;"><i class="fa-solid fa-bars border-0"></i></span>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-trigger="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fa-solid fa-bars"></i></span>
       </button>
       <div class="collapse navbar-collapse text-center" id="navbarNav">
-        <div class="offcanvas-header mt-3">
+        <div class="offcanvas-header mt-3 pb-3">
           <button type="button" class="btn-close float-left"><i class="fas fa-times"></i></button>
-          <h5 class="text-white py-2" style="text-align: right;">Menu</h5>
+          <h5 class="text-white float-right border-left px-2" style="text-align: right;">Menu</h5>
+          <a href="#" class="px-3 font-size-16 float-right"><i class="fa-solid fa-user text-light"></i></a>
+          
         </div>
-        <ul class="navbar-nav m-auto font-rale">
+        <ul class="navbar-nav m-auto font-rale text-light">
           <li class="nav-item active">
-            <a class="nav-link " href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link text-white " href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">About Us</a>
@@ -59,9 +63,6 @@
           </li>
           <li class="nav-item nav-item-hidden">
             <a class="nav-link" href="#">Wishlist</a>
-          </li>
-          <li class="nav-item nav-item-hidden">
-            <a href="#" class="px-3 font-size-16 border-left"><i class="fa-solid fa-user text-light"></i></a>
           </li>
         </ul>
         <div class="d-flex">
@@ -108,7 +109,7 @@
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fa-solid fa-circle-chevron-left"></i></span>
+          <span class="carousel-control-prev-icon1" aria-hidden="true"><i class="fa-solid fa-circle-chevron-left"></i></span>
           <span class="sr-only">Previous</span>
         </a>
         <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">

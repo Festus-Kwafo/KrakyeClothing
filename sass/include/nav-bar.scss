@@ -7,11 +7,15 @@
     border-bottom: 1px $color-second;
 }
 
-.navbar-nav .nav-link a{
-    
-    font-weight: 600;
+.navbar-nav .nav-item a{
+    color: #fff !important;
 }
 
-.carousel-control-prev{
-    background-image: none;
+.carousel-control-prev-icon1,
+.carousel-control-next-icon1{
+    font-size: 22px;
+}
+
+.offcanvas-header{
+    display: none;
 }

@@ -147,12 +147,17 @@ a {
   border-bottom: 1px #c2c2ca;
 }
 
-.navbar-nav .nav-link a {
-  font-weight: 600;
+.navbar-nav .nav-item a {
+  color: #fff !important;
 }
 
-.carousel-control-prev {
-  background-image: none;
+.carousel-control-prev-icon1,
+.carousel-control-next-icon1 {
+  font-size: 22px;
+}
+
+.offcanvas-header {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */
