@@ -25,7 +25,7 @@
     <section id="top-bar">
       <div class="strip d-flex justify-content-between px-4 py-1 bg-dark">
         <p></p>
-        <div class="font-rale font-size-14">
+        <div class="font-inter font-size-14">
           <a href="#" class="px-3 font-size-16 border-left"><i class="fa-solid fa-user text-light"></i></a>
           <a href="" class="px-3 border-right border-left text-light text-decoration-none">Contact</a>
           <a href="" class="px-3 border-right text-light text-decoration-none">Wishlist</a>
@@ -45,7 +45,7 @@
           <a href="#" class="px-3 font-size-16 float-right"><i class="fa-solid fa-user text-light"></i></a>
           
         </div>
-        <ul class="navbar-nav m-auto font-rale text-light">
+        <ul class="navbar-nav m-auto font-inter text-light">
           <li class="nav-item active">
             <a class="nav-link text-white " href="#">Home <span class="sr-only">(current)</span></a>
           </li>
@@ -66,7 +66,7 @@
           </li>
         </ul>
         <div class="d-flex">
-          <form action="#" class="font-size-14 font-rale rounded-pill color-primary-bg">
+          <form action="#" class="font-size-14 font-inter rounded-pill color-primary-bg">
             <a href="" class="py-2 rounded-pill color-primary-bg text-decoration-none">
               <span class="font-size-16 px-2 text-white"><i class="fa-solid fa-cart-shopping"></i></span>
               <span class="px-3 font-size-16 py-2 text-black rounded-pill bg-light">0</span>
@@ -108,58 +108,69 @@
                 </div>
                 <div class="row border-top border-bottom">
                     <div class="row main align-items-center">
-                        <div class="col-2"><img class="img-fluid" src="https://i.imgur.com/1GrakTl.jpg"></div>
+                        <div class="col-2"><img class="img-fluid" src="assets/product-1.jpg"></div>
                         <div class="col">
                             <div class="row text-muted">Shirt</div>
                             <div class="row">Cotton T-shirt</div>
                         </div>
-                        <div class="col"> <a href="#">-</a><a href="#" class="border">1</a><a href="#">+</a> </div>
+                        <div class="col"> 
+                          <button class="qty_up border bg-light" data-id="pro2" > <i class="fas fa-angle-up"></i> </button>
+                          <input type="text" class="qty_input border px-2 w-25 bg-light" data-id="pro2" disabled value="1" placeholder="1">
+                          <button class="qty_down border bg-light" data-id="pro2" > <i class="fas fa-angle-down"></i> </button>
+                         </div>
                         <div class="col">&euro; 44.00 <span class="close">&#10005;</span></div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="row main align-items-center">
-                        <div class="col-2"><img class="img-fluid" src="https://i.imgur.com/ba3tvGm.jpg"></div>
+                        <div class="col-2"><img class="img-fluid" src="assets/product-2.jpg"></div>
                         <div class="col">
                             <div class="row text-muted">Shirt</div>
                             <div class="row">Cotton T-shirt</div>
                         </div>
-                        <div class="col"> <a href="#">-</a><a href="#" class="border">1</a><a href="#">+</a> </div>
+                        <div class="col"> 
+                          <button class="qty_up border bg-light" data-id="pro2" > <i class="fas fa-angle-up"></i> </button>
+                          <input type="text" class="qty_input border px-2 w-25 bg-light" data-id="pro2" disabled value="1" placeholder="1">
+                          <button class="qty_down border bg-light" data-id="pro2" > <i class="fas fa-angle-down"></i> </button>
+                         </div>
                         <div class="col">&euro; 44.00 <span class="close">&#10005;</span></div>
                     </div>
                 </div>
                 <div class="row border-top border-bottom">
                     <div class="row main align-items-center">
-                        <div class="col-2"><img class="img-fluid" src="https://i.imgur.com/pHQ3xT3.jpg"></div>
+                        <div class="col-2"><img class="img-fluid" src="assets/product-3.jpg"></div>
                         <div class="col">
                             <div class="row text-muted">Shirt</div>
                             <div class="row">Cotton T-shirt</div>
                         </div>
-                        <div class="col"> <a href="#">-</a><a href="#" class="border">1</a><a href="#">+</a> </div>
+                        <div class="col"> 
+                          <button class="qty_up border bg-light" data-id="pro2" > <i class="fas fa-angle-up"></i> </button>
+                          <input type="text" class="qty_input border px-2 w-25 bg-light" data-id="pro2" disabled value="1" placeholder="1">
+                          <button class="qty_down border bg-light" data-id="pro2" > <i class="fas fa-angle-down"></i> </button> </div>
                         <div class="col">&euro; 44.00 <span class="close">&#10005;</span></div>
                     </div>
                 </div>
-                <div class="back-to-shop"><a href="#">&leftarrow;</a><span class="text-muted">Back to shop</span></div>
+                <div class="back-to-shop"><a href="#">&leftarrow;</a><span class="text-muted font-inter">Back to shop</span></div>
             </div>
             <div class="col-md-4 summary">
                 <div>
-                    <h5><b>Summary</b></h5>
+                    <h5 class="font-inter"><b>Summary</b></h5>
                 </div>
                 <hr>
                 <div class="row">
-                    <div class="col" style="padding-left:0;">ITEMS 3</div>
+                    <div class="col" style="padding-left:0;"><span class="font-inter">ITEMS 3</span> </div>
                     <div class="col text-right">&euro; 132.00</div>
                 </div>
                 <form>
-                    <p>SHIPPING</p> <select>
-                        <option class="text-muted">Standard-Delivery- &euro;5.00</option>
+                    <p class="font-inter">SHIPPING</p> <select>
+                        <option class="text-muted font-inter">Standard-Delivery- &euro;5.00</option>
                     </select>
-                    <p>GIVE CODE</p> <input id="code" placeholder="Enter your code">
+                    <p class="font-inter">GIVE CODE</p> <input id="code" placeholder="Enter your code">
                 </form>
                 <div class="row" style="border-top: 1px solid rgba(0,0,0,.1); padding: 2vh 0;">
-                    <div class="col">TOTAL PRICE</div>
+                    <div class="col"> <span class="font-inter">TOTAL PRICE</span> </div>
                     <div class="col text-right">&euro; 137.00</div>
-                </div> <button class="btn">CHECKOUT</button>
+                </div> <button class="btn btn-checkout font-inter">CHECKOUT</button>
             </div>
         </div>
     </div>
@@ -170,12 +181,12 @@
     <!--New Clothes-->
     <section id="new-clothes">
         <div class="container py-5">
-          <h4 class="font-roboto font-size-20">New Clothes</h4>
+          <h4 class="font-inter font-size-20">New Clothes</h4>
           <hr>
           <!--Owl carousel-->
         <div class="owl-carousel owl-theme">
           <div class="item py-2  m-2">
-            <div class="product font-rale">
+            <div class="product font-inter">
               <button type="button" class="btn p-0" data-toggle="modal" data-target=".bd-example-modal-lg"><img src="assets/product-1.jpg" alt="product-1" class="img-fluid"></button>
               <div class="text-center mt-3">
                 <h6>Kaftan Men</h6>
@@ -194,7 +205,7 @@
             </div>
           </div>
           <div class="item py-2 m-2">
-            <div class="product font-rale">
+            <div class="product font-inter">
               <button type="button" class="btn p-0" data-toggle="modal" data-target=".bd-example-modal-lg"><img src="assets/product-2.jpg" alt="product-1" class="img-fluid"></button>
               <div class="text-center mt-3">
                 <h6>Kaftan Men</h6>
@@ -213,7 +224,7 @@
             </div>
           </div>
           <div class="item py-2 m-2">
-            <div class="product font-rale">
+            <div class="product font-inter">
               <button type="button" class="btn p-0" data-toggle="modal" data-target=".bd-example-modal-lg"><img src="assets/product-3.jpg" alt="product-1" class="img-fluid"></button>
               <div class="text-center mt-3">
                 <h6>Kaftan Men</h6>
@@ -232,7 +243,7 @@
             </div>
           </div>
           <div class="item py-2 m-2">
-            <div class="product font-rale">
+            <div class="product font-inter">
               <button type="button" class="btn p-0" data-toggle="modal" data-target=".bd-example-modal-lg"><img src="assets/product-4.jpg" alt="product-1" class="img-fluid"></button>
               <div class="text-center mt-3">
                 <h6>Kaftan Men</h6>
@@ -251,7 +262,7 @@
             </div>
           </div>
           <div class="item py-2 m-2">
-            <div class="product font-rale">
+            <div class="product font-inter">
               <button type="button" class="btn p-0" data-toggle="modal" data-target=".bd-example-modal-lg"><img src="assets/product-4.jpg" alt="product-1" class="img-fluid"></button>
               <div class="text-center mt-3">
                 <h6>Kaftan Men</h6>
@@ -270,7 +281,7 @@
             </div>
           </div>
           <div class="item py-2 m-2">
-            <div class="product font-rale">
+            <div class="product font-inter">
               <button type="button" class="btn p-0" data-toggle="modal" data-target=".bd-example-modal-lg"><img src="assets/product-5.jpg" alt="product-1" class="img-fluid"></button>
               <div class="text-center mt-3">
                 <h6>Kaftan Men</h6>
@@ -322,19 +333,19 @@
         <div class="col-lg-4 col-12">
           <h4 class="font-rubik font-size-20 text-dark">Contact</h4>
           <div class="d-flex flex-column flex-wrap">
-            <span class="font-rale font-size-12 text-black-50 pb-1" >Address: <a href="https://goo.gl/maps/PvDEY96d2sS3cyo46" class="text-black-50">Hannah School Road, Madina</a> </span>
-            <span class="font-rale font-size-12 text-black-50 pb-1" >Email: <a href="mailto:festuskwafo11@gmail.com" class="text-black-50" >Krakye Clothing</a></span>
-            <span class="font-rale font-size-12 text-black-50 pb-1" >Mobile: <a href="tel:+233205115005" class="text-black-50" >0205115005</a></span>
-            <span class="font-rale font-size-12 text-black-50 pb-1" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, assumenda!</span>
+            <span class="font-inter font-size-12 text-black-50 pb-1" >Address: <a href="https://goo.gl/maps/PvDEY96d2sS3cyo46" class="text-black-50">Hannah School Road, Madina</a> </span>
+            <span class="font-inter font-size-12 text-black-50 pb-1" >Email: <a href="mailto:festuskwafo11@gmail.com" class="text-black-50" >Krakye Clothing</a></span>
+            <span class="font-inter font-size-12 text-black-50 pb-1" >Mobile: <a href="tel:+233205115005" class="text-black-50" >0205115005</a></span>
+            <span class="font-inter font-size-12 text-black-50 pb-1" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, assumenda!</span>
           </div>
         </div>
         <div class="col-lg-4 col-12">
           <h4 class="font-rubik font-size-20 text-dark">Information</h4>
           <div class="d-flex flex-column flex-wrap">
-            <a href="#" class="font-rale font-size-14 text-black-50 pb-1">About Us</a>
-            <a href="#" class="font-rale font-size-14 text-black-50 pb-1">Delivery Information</a>
-            <a href="#" class="font-rale font-size-14 text-black-50 pb-1">Privacy Policy</a>
-            <a href="#" class="font-rale font-size-14 text-black-50 pb-1">Terms & Conditions</a>
+            <a href="#" class="font-inter font-size-14 text-black-50 pb-1">About Us</a>
+            <a href="#" class="font-inter font-size-14 text-black-50 pb-1">Delivery Information</a>
+            <a href="#" class="font-inter font-size-14 text-black-50 pb-1">Privacy Policy</a>
+            <a href="#" class="font-inter font-size-14 text-black-50 pb-1">Terms & Conditions</a>
           </div>
         </div>
       </div>
@@ -343,7 +354,7 @@
   </footer>
   <!--End Footer-->
   <div class="copyright text-center color-second-bg text-dark px-0">
-    <span class="font-rale font-size-14">Copyrights &copy; <script>document.write(new Date().getFullYear())</script> Krakye Clothing. All rights reserved </span>
+    <span class="font-inter font-size-14">Copyrights &copy; <script>document.write(new Date().getFullYear())</script> Krakye Clothing. All rights reserved </span>
   </div>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

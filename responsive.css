@@ -69,3 +69,24 @@
     }
 
 }
+
+@media(max-width:767px) {
+    .card {
+        margin: 3vh auto
+    }
+}
+
+@media(max-width:767px) {
+    .cart {
+        padding: 4vh;
+        border-bottom-left-radius: unset;
+        border-top-right-radius: 1rem
+    }
+}
+
+@media(max-width:767px) {
+    .summary {
+        border-top-right-radius: unset;
+        border-bottom-left-radius: 1rem
+    }
+}

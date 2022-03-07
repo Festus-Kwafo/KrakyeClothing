@@ -8,11 +8,7 @@
     border: transparent
 }
 
-@media(max-width:767px) {
-    .card {
-        margin: 3vh auto
-    }
-}
+
 
 .cart {
     background-color: #fff;
@@ -21,13 +17,7 @@
     border-top-left-radius: 1rem
 }
 
-@media(max-width:767px) {
-    .cart {
-        padding: 4vh;
-        border-bottom-left-radius: unset;
-        border-top-right-radius: 1rem
-    }
-}
+
 
 .summary {
     background-color: #ddd;
@@ -37,12 +27,7 @@
     color: rgb(65, 65, 65)
 }
 
-@media(max-width:767px) {
-    .summary {
-        border-top-right-radius: unset;
-        border-bottom-left-radius: 1rem
-    }
-}
+
 
 .summary .col-2 {
     padding: 0
@@ -122,7 +107,7 @@ input:focus::-webkit-input-placeholder {
     color: transparent
 }
 
-.btn {
+.btn-checkout {
     background-color: #000;
     border-color: #000;
     color: white;
