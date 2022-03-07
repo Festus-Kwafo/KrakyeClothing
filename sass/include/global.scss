@@ -18,6 +18,9 @@ button, button:focus {
 .qty_input{
     width: 65%;
 }
+.qty_input_cart{
+    width: 55%;
+}
 
 .qty_up, .qty_down{
     color: black;
@@ -25,4 +28,9 @@ button, button:focus {
 
 .border-2 {
     border-width:2px !important;
+    width: 100% !important;
+}
+
+.btn-width{
+    width: 100% !important;
 }

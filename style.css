@@ -21,12 +21,21 @@ button, button:focus {
   width: 65%;
 }
 
+.qty_input_cart {
+  width: 55%;
+}
+
 .qty_up, .qty_down {
   color: black;
 }
 
 .border-2 {
   border-width: 2px !important;
+  width: 100% !important;
+}
+
+.btn-width {
+  width: 100% !important;
 }
 
 /*typography class*/
@@ -249,7 +258,8 @@ a {
 
 .close {
   margin-left: auto;
-  font-size: 0.7rem;
+  font-size: 1.2rem;
+  cursor: pointer;
 }
 
 .back-to-shop {

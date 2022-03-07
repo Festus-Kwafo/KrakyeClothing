@@ -166,23 +166,25 @@
                           </div>
                       </div>
                       <div class="col-sm-6">
-                          <h5 class="font-inter font-size-40">Black Kaftan</h5>
+                          <h5 class="font-inter font-size-20">Black Kaftan</h5>
                           <hr class="m-0">
                           <!--Product Price-->
                           <table class="my-3">
                               <tr >
+                                <!--Old Price-->
                                   <td>
-                                      <strike><span class="font-inter font-size-20">GH₵160</span></strike>
+                                      <strike><span class="font-inter font-size-16 text-muted">GH₵ 160</span></strike>
+                                  </td>
+                              </tr>
+                              <tr>
+                                <!--New Old Price-->
+                                  <td>
+                                      <span class="font-inter font-size-16">GH₵ 120</span>
                                   </td>
                               </tr>
                               <tr>
                                   <td>
-                                      <span class="font-inter font-size-20">GH₵120</span>
-                                  </td>
-                              </tr>
-                              <tr>
-                                  <td>
-                                      <span class="font-inter font-size-20">Category: <b>Kaf</b> </span>
+                                      <span class="font-inter font-size-16">Category: <b>Kaf</b> </span>
                                   </td>
                               </tr>
                           </table>
@@ -193,7 +195,7 @@
                                   <!--Color-->
                                   <div class="color my-3">
                                       <div class="dropdown">
-                                          <button class="btn dropdown-toggle border-dark rounded-pill border-2" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-expanded="false">
+                                          <button class="btn dropdown-toggle border-dark rounded-pill border-2 text-left" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-expanded="false">
                                             Color
                                           </button>
                                           <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
@@ -208,7 +210,7 @@
                               <div class="col-6">
                                   <div class="size my-3">
                                       <div class="dropdown">
-                                          <button class="btn btn-dropdown dropdown-toggle border-dark rounded-pill border-2" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-expanded="false">
+                                          <button class="btn btn-dropdown dropdown-toggle border-dark rounded-pill border-2 text-left" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-expanded="false">
                                             Size
                                           </button>
                                           <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
@@ -269,7 +271,8 @@
           </div>
         </div>
       </div>
-<!--Pop Up for Top Sale-->
+    <!--End Pop Up for Top Sale-->
+
     <!--Top Sale-->
     <section id="top-sale">
       <div class="container py-5">
@@ -413,10 +416,19 @@
             <div class="shadow-sm item py-2 m-2" style="width:180px">
               <div class="product font-inter">
                 <!--Pop Up Details-->
-                <button type="button" class="btn p-0" data-toggle="modal" data-target=".bd-example-modal-lg"><img src="assets/product-1.jpg" alt="product-1" class="img-fluid" style="width: 178px; height: 222.3px;"></button>
+                <button type="button" class="btn p-0" data-toggle="modal" data-target=".bd-example-modal-lg">
+                  <img src="assets/product-1.jpg" alt="product-1" class="img-fluid" style="width: 178px; height: 222.3px;">
+                </button>
                 <!-- End Pop Up Details-->
                 <div class="text-center mt-3">
-                  <h6>Kaftan Men</h6>
+                  <div class="row d-flex justify-content-between">
+                    <h6 class="mt-2">Kaftan Men</h6>
+                    <button class="btn btn-wishlist" style="color: black;">
+                      <svg id="btn_wishlist" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: none; stroke:currentColor;" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                    </button>
+                    
+                  </div>
+                  
                   <div class="rating text-warning font-size-12">
                     <span><i class="fas fa-star"></i></span>
                     <span><i class="fas fa-star"></i></span>
@@ -424,8 +436,9 @@
                     <span><i class="fas fa-star"></i></span>
                     <span><i class="far fa-star"></i></span>
                   </div>
-                  <div class="price py-2">
-                    <span>$150</span>
+                  <div class="price py-2 text-left ml-3">
+                    <strike ><span class="text-muted">$150</span></strike>
+                    <p>$150</p>
                   </div>
                   <button type="submit" class="btn btn-product font-size-12"data-toggle="modal" data-target=".bd-example-modal-lg">View Product</button>
                 </div>

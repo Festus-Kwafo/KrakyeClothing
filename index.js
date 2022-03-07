@@ -93,3 +93,14 @@ $(function(){
         $('body').removeClass("offcanvas-active");
     })
 })
+
+const btn_wishlist = document.getElementById('btn_wishlist');
+
+btn_wishlist.addEventListener('click', function onClick() {
+    btn_wishlist.style.fill = 'red'
+    btn_wishlist.style.stroke = 'none';
+});
+
+$(function(){
+    
+})
