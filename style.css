@@ -52,6 +52,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 /*Coor Template*/
 .color-primary {
   color: #212529;
@@ -107,6 +111,16 @@ a {
 #special-price .grid .grid-item {
   margin-top: 1.5rem;
   margin-right: 1rem;
+}
+
+.btn-product {
+  background-color: black;
+  color: aliceblue;
+}
+
+.btn-product:hover {
+  color: white;
+  background-color: rgba(17, 17, 17, 0.856);
 }
 
 /*New Clothes Templates */
