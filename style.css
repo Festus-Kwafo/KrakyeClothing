@@ -226,10 +226,6 @@ a {
   font-size: 0.7rem;
 }
 
-img {
-  width: 3.5rem;
-}
-
 .back-to-shop {
   margin-top: 4.5rem;
 }
@@ -283,25 +279,14 @@ input:focus::-webkit-input-placeholder {
   box-shadow: none;
   outline: none;
   box-shadow: none;
-  color: #b84a4a;
+  color: #853a3a;
   -webkit-box-shadow: none;
   -webkit-user-select: none;
   transition: none;
 }
 
-.btn-item::before {
-  content: " ";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 5px;
-  background-color: #b84a4a;
-  transform: scale(0);
-}
-
-.btn-item:hover::before,
-.btn-item:focus::before {
-  transform: scale(1);
+.btn-item:hover {
+  color: #b84a4a;
 }
 
 #code {

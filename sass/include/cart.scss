@@ -65,9 +65,6 @@ a {
     font-size: 0.7rem
 }
 
-img {
-    width: 3.5rem
-}
 
 .back-to-shop {
     margin-top: 4.5rem
@@ -122,30 +119,16 @@ input:focus::-webkit-input-placeholder {
     box-shadow: none;
     outline: none;
     box-shadow: none;
-    color: rgb(184, 74, 74);
+    color: rgb(133, 58, 58);
     -webkit-box-shadow: none;
     -webkit-user-select: none;
     transition: none
 }
 
-.btn-item::before{
-    content: " ";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 5px;
-    background-color:rgb(184, 74, 74);
-
-    transform: scale(0);
-   
+.btn-item:hover {
+    color: rgb(184, 74, 74)
 }
 
-.btn-item:hover::before,
-.btn-item:focus::before
-{
-    transform: scale(1);
-    
-}
 
 
 #code {
@@ -154,3 +137,4 @@ input:focus::-webkit-input-placeholder {
     background-position-x: 95%;
     background-position-y: center
 }
+
