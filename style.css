@@ -7,6 +7,28 @@ button, button:focus {
   box-shadow: none !important;
 }
 
+.btn-product {
+  background-color: black;
+  color: aliceblue;
+}
+
+.btn-product:hover {
+  color: white;
+  background-color: rgba(17, 17, 17, 0.856);
+}
+
+.qty_input {
+  width: 65%;
+}
+
+.qty_up, .qty_down {
+  color: black;
+}
+
+.border-2 {
+  border-width: 2px !important;
+}
+
 /*typography class*/
 .font-roboto {
   font-family: "Roboto", cursive;
@@ -111,16 +133,6 @@ a:hover {
 #special-price .grid .grid-item {
   margin-top: 1.5rem;
   margin-right: 1rem;
-}
-
-.btn-product {
-  background-color: black;
-  color: aliceblue;
-}
-
-.btn-product:hover {
-  color: white;
-  background-color: rgba(17, 17, 17, 0.856);
 }
 
 /*New Clothes Templates */

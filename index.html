@@ -128,7 +128,7 @@
             <div class="modal-header">
               <h5 class="modal-title" id="exampleModalLabel">Krakye Clothing</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span class="font-s" aria-hidden="true">×</span>
+                <span class="font-size-20" aria-hidden="true">×</span>
               </button>
           </div>
             <section id="product" class="py-3">
@@ -167,16 +167,6 @@
                       </div>
                       <div class="col-sm-6">
                           <h5 class="font-inter font-size-40">Black Kaftan</h5>
-                          <div class="d-flex">
-                              <div class="rating text-warning font-size-12">
-                                  <span><i class="fas fa-star"></i></span>
-                                  <span><i class="fas fa-star"></i></span>
-                                  <span><i class="fas fa-star"></i></span>
-                                  <span><i class="fas fa-star"></i></span>
-                                  <span><i class="far fa-star"></i></span>
-                                </div>
-                                <a href="#" class="px-2 font-inter font-size-14">20,300+ rating</a>
-                          </div>
                           <hr class="m-0">
                           <!--Product Price-->
                           <table class="my-3">
@@ -203,7 +193,7 @@
                                   <!--Color-->
                                   <div class="color my-3">
                                       <div class="dropdown">
-                                          <button class="btn dropdown-toggle border" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-expanded="false">
+                                          <button class="btn dropdown-toggle border-dark rounded-pill border-2" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-expanded="false">
                                             Color
                                           </button>
                                           <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
@@ -214,14 +204,29 @@
                                         </div>
                                   </div>
                               </div>
-                              <!--Qty section-->
+                              <!--Size section-->
                               <div class="col-6">
-                                  <div class="qty d-flex ">
-                                    <h6 class="font-inter pt-2">Qty:</h6>
-                                    <div class="px-1 d-flex font-inter">
-                                      <button class="qty_up border bg-light" data-id="pro2"> <i class="fas fa-angle-up"></i> </button>
-                                      <input type="text" class="qty_input border px-1 w-50 bg-light " data-id="pro2" disabled value="1" placeholder="1">
-                                      <button class="qty_down border bg-light" data-id="pro2"> <i class="fas fa-angle-down"></i> </button>
+                                  <div class="size my-3">
+                                      <div class="dropdown">
+                                          <button class="btn btn-dropdown dropdown-toggle border-dark rounded-pill border-2" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-expanded="false">
+                                            Size
+                                          </button>
+                                          <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                            <button class="dropdown-item" type="button">Small</button>
+                                            <button class="dropdown-item" type="button">Medium</button>
+                                            <button class="dropdown-item" type="button">Large</button>
+                                          </div>
+                                        </div>
+                                  </div>
+                              </div>
+                              <!--End Qty section-->
+                              <!--Qty section-->
+                              <div class="col-12">
+                                  <div class="qty d-flex">
+                                    <div class="px-1 flex flex-row font-inter">
+                                      <button class="qty_up py-1 border-0 bg-white" data-id="pro2"> <i class="fas fa-angle-up"></i> </button>
+                                      <input type="text" class="qty_input mx-0 bg-white rounded-pill text-center" data-id="pro2" disabled value="1" placeholder="1">
+                                      <button class="qty_down py-1 border-0 bg-white" data-id="pro2"> <i class="fas fa-angle-down"></i> </button>
                                     </div>
                                   </div>
                               </div>
@@ -245,11 +250,9 @@
                               </div>
                           </div>
                           <div class="form-row pt-2 font-size-16 font-inter">
+                            
                             <div class="col">
-                                <button type="submit" class="btn btn-dark form-control">Proceed to buy</button>
-                            </div>
-                            <div class="col">
-                                <button type="submit" class="btn btn-dark form-control">View Product</button>
+                                <button type="submit" class="btn btn-product form-control">Add to Cart</button>
                             </div>
                         </div>
                           <!--Order Details-->
@@ -257,10 +260,6 @@
                               <small>
                                   Delivery by Mar 2022 - Apr 2022
                               </small>
-                          </div>
-                          <div class="col-12 text-center m-1">
-                            <a href="#" class="text-dark text-decoration-none">View full product details</a>
-                          
                           </div>
                           <!--End Order Details-->
                       </div>

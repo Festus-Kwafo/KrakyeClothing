@@ -4,3 +4,25 @@ button, button:focus {
     outline: none !important;
     box-shadow: none !important;
 }
+
+.btn-product {
+    background-color: black;
+    color: aliceblue;
+}
+
+.btn-product:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(17, 17, 17, 0.856);
+}
+
+.qty_input{
+    width: 65%;
+}
+
+.qty_up, .qty_down{
+    color: black;
+}
+
+.border-2 {
+    border-width:2px !important;
+}
