@@ -15,29 +15,39 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!--Css file-->
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
   
   <title>Krakye Clothing</title>
 </head>
 <body>
   <!--Header-->
   <header id="header">
-    <div class="strip d-flex justify-content-between px-4 py-1 bg-dark">
-      <p></p>
-      <div class="font-rale font-size-14">
-        <a href="" class="px-3 border-right border-left text-light">Contact</a>
-        <a href="" class="px-3 border-right text-light">Wishlist</a>
+    <section id="top-bar">
+      <div class="strip d-flex justify-content-between px-4 py-1 bg-dark">
+        <p></p>
+        <div class="font-rale font-size-14">
+          <a href="#" class="px-3 font-size-16 border-left"><i class="fa-solid fa-user text-light"></i></a>
+          <a href="" class="px-3 border-right border-left text-light text-decoration-none">Contact</a>
+          <a href="" class="px-3 border-right text-light text-decoration-none">Wishlist</a>
+        </div>
       </div>
-    </div>
+    </section>
     <!--Primary Navbar-->
-    <nav class="px-5 navbar navbar-expand-lg navbar-light color-second-bg">
-      <img src="/assets/logo2.png" width="30px" height="40px" alt="logo">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+    <nav class="px-5 navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href=""><img src="/assets/logo2.png" width="30px" height="40px" alt="logo"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-trigger="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fa-solid fa-bars"></i></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav m-auto font-rale">
+      <div class="collapse navbar-collapse text-center" id="navbarNav">
+        <div class="offcanvas-header mt-3 pb-3">
+          <button type="button" class="btn-close float-left"><i class="fas fa-times"></i></button>
+          <h5 class="text-white float-right border-left px-2" style="text-align: right;">Menu</h5>
+          <a href="#" class="px-3 font-size-16 float-right"><i class="fa-solid fa-user text-light"></i></a>
+          
+        </div>
+        <ul class="navbar-nav m-auto font-rale text-light">
           <li class="nav-item active">
-            <a class="nav-link " href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link text-white " href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">About Us</a>
@@ -48,24 +58,41 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Book Appointment</a>
           </li>
+          <li class="nav-item nav-item-hidden">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item nav-item-hidden">
+            <a class="nav-link" href="#">Wishlist</a>
+          </li>
         </ul>
-        <form action="#" class="font-size-14 font-rale rounded-pill color-primary-bg">
-          <a href="" class="py-2 rounded-pill color-primary-bg">
-            <span class="font-size-16 px-2 text-white"><i class="fa-solid fa-user"></i></span>
-            <span class="px-3 font-size-16 py-2 text-black rounded-pill bg-light"><i class="fa-solid fa-cart-shopping"></i></span>
-          </a>
-          
-        </form>
+        <div class="d-flex">
+          <form action="#" class="font-size-14 font-rale rounded-pill color-primary-bg">
+            <a href="" class="py-2 rounded-pill color-primary-bg text-decoration-none">
+              <span class="font-size-16 px-2 text-white"><i class="fa-solid fa-cart-shopping"></i></span>
+              <span class="px-3 font-size-16 py-2 text-black rounded-pill bg-light">0</span>
+            </a>
+          </form>
+        </div>
       </div>
+      
+  
     </nav>
     <!--End Primary Navbar-->
-
+    
   </header>
   <!--End Header-->
 
+
   <!--Main site-->
   <main id="main-site">
-
+    <!--Banner Area-->
+    <section id="banner-area">
+      <div>
+        <img class="d-block w-100 desktop-slide" src="assets/slide-1.jpg" alt="First slide">
+        <img class="d-block w-100 phone-slide" src="assets/slide-1-phone.jpg" alt="First slide">
+      </div>
+    </section>
+    <!--End Banner Area-->
     <!--Shopping Cart Section-->
     <section id="cart" class="py-3">
         <div class="container-fluid w-75">

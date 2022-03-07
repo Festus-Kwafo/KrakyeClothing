@@ -45,7 +45,7 @@
         overflow-y: auto;
         visibility: hidden;
         background-color: #000;
-        transition: all 5s ease-in-out;
+        transition: all 0.2s ease-in-out;
         align-items: center;
     }
     
