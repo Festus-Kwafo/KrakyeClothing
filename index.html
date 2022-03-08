@@ -47,9 +47,9 @@
           <a href="#" class="px-3 font-size-16 float-right"><i class="fa-solid fa-user text-light"></i></a>
           
         </div>
-        <ul class="navbar-nav m-auto font-inter text-light">
-          <li class="nav-item active">
-            <a class="nav-link text-white " href="#">Home <span class="sr-only">(current)</span></a>
+        <ul class="navbar-nav m-auto font-inter text-dark">
+          <li class= "nav-item active">
+            <a class="nav-link text-black" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">About Us</a>
@@ -422,9 +422,9 @@
                 <!-- End Pop Up Details-->
                 <div class="text-center mt-3">
                   <div class="row d-flex justify-content-between">
-                    <h6 class="mt-2">Kaftan Men</h6>
+                    <h6 class="mt-2 ml-3">Kaftan Men</h6>
                     <button class="btn btn-wishlist" style="color: black;">
-                      <svg id="btn_wishlist" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: none; stroke:currentColor;" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                      <svg id="btn_wishlist" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" onclick="myFunction(this)" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
                     </button>
                     
                   </div>
@@ -446,13 +446,22 @@
             </div>
           </div>
           <div class="grid-item Work m-0">
-            <div class="item py-2 m-2" style="width:180px">
+            <div class="shadow-sm item py-2 m-2" style="width:180px">
               <div class="product font-inter">
                 <!--Pop Up Details-->
-                <button type="button" class="btn p-0" data-toggle="modal" data-target=".bd-example-modal-lg"><img src="assets/product-3.jpg" alt="product-1" class="img-fluid" style="width: 178px; height: 222.3px;"></button>
+                <button type="button" class="btn p-0" data-toggle="modal" data-target=".bd-example-modal-lg">
+                  <img src="assets/product-1.jpg" alt="product-1" class="img-fluid" style="width: 178px; height: 222.3px;">
+                </button>
                 <!-- End Pop Up Details-->
                 <div class="text-center mt-3">
-                  <h6>Kaftan Men</h6>
+                  <div class="row d-flex justify-content-between">
+                    <h6 class="mt-2 ml-3">Kaftan Men</h6>
+                    <button class="btn btn-wishlist" style="color: black;">
+                      <svg id="btn_wishlist" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" onclick="myFunction(this)" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                    </button>
+                    
+                  </div>
+                  
                   <div class="rating text-warning font-size-12">
                     <span><i class="fas fa-star"></i></span>
                     <span><i class="fas fa-star"></i></span>
@@ -460,10 +469,11 @@
                     <span><i class="fas fa-star"></i></span>
                     <span><i class="far fa-star"></i></span>
                   </div>
-                  <div class="price py-2">
-                    <span>$150</span>
+                  <div class="price py-2 text-left ml-3">
+                    <strike ><span class="text-muted">$150</span></strike>
+                    <p>$150</p>
                   </div>
-                  <button type="submit" class="btn btn-product font-size-12">View Product</button>
+                  <button type="submit" class="btn btn-product font-size-12"data-toggle="modal" data-target=".bd-example-modal-lg">View Product</button>
                 </div>
               </div>
             </div>
@@ -472,10 +482,19 @@
             <div class="shadow-sm item py-2 m-2" style="width:180px">
               <div class="product font-inter">
                 <!--Pop Up Details-->
-                <button type="button" class="btn p-0" data-toggle="modal" data-target=".bd-example-modal-lg"><img src="assets/product-1.jpg" alt="product-1" class="img-fluid" style="width: 178px; height: 222.3px;"></button>
+                <button type="button" class="btn p-0" data-toggle="modal" data-target=".bd-example-modal-lg">
+                  <img src="assets/product-1.jpg" alt="product-1" class="img-fluid" style="width: 178px; height: 222.3px;">
+                </button>
                 <!-- End Pop Up Details-->
                 <div class="text-center mt-3">
-                  <h6>Kaftan Men</h6>
+                  <div class="row d-flex justify-content-between">
+                    <h6 class="mt-2 ml-3">Kaftan Men</h6>
+                    <button class="btn btn-wishlist" style="color: black;">
+                      <svg id="btn_wishlist" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" onclick="myFunction(this)" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                    </button>
+                    
+                  </div>
+                  
                   <div class="rating text-warning font-size-12">
                     <span><i class="fas fa-star"></i></span>
                     <span><i class="fas fa-star"></i></span>
@@ -483,22 +502,32 @@
                     <span><i class="fas fa-star"></i></span>
                     <span><i class="far fa-star"></i></span>
                   </div>
-                  <div class="price py-2">
-                    <span>$150</span>
+                  <div class="price py-2 text-left ml-3">
+                    <strike ><span class="text-muted">$150</span></strike>
+                    <p>$150</p>
                   </div>
-                  <button type="submit" class="btn btn-product font-size-12">View Product</button>
+                  <button type="submit" class="btn btn-product font-size-12"data-toggle="modal" data-target=".bd-example-modal-lg">View Product</button>
                 </div>
               </div>
             </div>
           </div>
           <div class="grid-item Wedding m-0">
-            <div class="shadow-sm shadow-sm item py-2 m-2" style="width:180px">
+            <div class="shadow-sm item py-2 m-2" style="width:180px">
               <div class="product font-inter">
                 <!--Pop Up Details-->
-                <button type="button" class="btn p-0" data-toggle="modal" data-target=".bd-example-modal-lg"><img src="assets/product-1.jpg" alt="product-1" class="img-fluid" style="width: 178px; height: 222.3px;"></button>
+                <button type="button" class="btn p-0" data-toggle="modal" data-target=".bd-example-modal-lg">
+                  <img src="assets/product-1.jpg" alt="product-1" class="img-fluid" style="width: 178px; height: 222.3px;">
+                </button>
                 <!-- End Pop Up Details-->
                 <div class="text-center mt-3">
-                  <h6>Kaftan Men</h6>
+                  <div class="row d-flex justify-content-between">
+                    <h6 class="mt-2 ml-3">Kaftan Men</h6>
+                    <button class="btn btn-wishlist" style="color: black;">
+                      <svg id="btn_wishlist" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" onclick="myFunction(this)" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                    </button>
+                    
+                  </div>
+                  
                   <div class="rating text-warning font-size-12">
                     <span><i class="fas fa-star"></i></span>
                     <span><i class="fas fa-star"></i></span>
@@ -506,10 +535,11 @@
                     <span><i class="fas fa-star"></i></span>
                     <span><i class="far fa-star"></i></span>
                   </div>
-                  <div class="price py-2">
-                    <span>$150</span>
+                  <div class="price py-2 text-left ml-3">
+                    <strike ><span class="text-muted">$150</span></strike>
+                    <p>$150</p>
                   </div>
-                  <button type="submit" class="btn btn-product font-size-12">View Product</button>
+                  <button type="submit" class="btn btn-product font-size-12"data-toggle="modal" data-target=".bd-example-modal-lg">View Product</button>
                 </div>
               </div>
             </div>
@@ -518,10 +548,19 @@
             <div class="shadow-sm item py-2 m-2" style="width:180px">
               <div class="product font-inter">
                 <!--Pop Up Details-->
-                <button type="button" class="btn p-0" data-toggle="modal" data-target=".bd-example-modal-lg"><img src="assets/product-1.jpg" alt="product-1" class="img-fluid" style="width: 178px; height: 222.3px;"></button>
+                <button type="button" class="btn p-0" data-toggle="modal" data-target=".bd-example-modal-lg">
+                  <img src="assets/product-1.jpg" alt="product-1" class="img-fluid" style="width: 178px; height: 222.3px;">
+                </button>
                 <!-- End Pop Up Details-->
                 <div class="text-center mt-3">
-                  <h6>Kaftan Men</h6>
+                  <div class="row d-flex justify-content-between">
+                    <h6 class="mt-2 ml-3">Kaftan Men</h6>
+                    <button class="btn btn-wishlist" style="color: black;">
+                      <svg id="btn_wishlist" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" onclick="myFunction(this)" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                    </button>
+                    
+                  </div>
+                  
                   <div class="rating text-warning font-size-12">
                     <span><i class="fas fa-star"></i></span>
                     <span><i class="fas fa-star"></i></span>
@@ -529,10 +568,11 @@
                     <span><i class="fas fa-star"></i></span>
                     <span><i class="far fa-star"></i></span>
                   </div>
-                  <div class="price py-2">
-                    <span>$150</span>
+                  <div class="price py-2 text-left ml-3">
+                    <strike ><span class="text-muted">$150</span></strike>
+                    <p>$150</p>
                   </div>
-                  <button type="submit" class="btn btn-product font-size-12">View Product</button>
+                  <button type="submit" class="btn btn-product font-size-12"data-toggle="modal" data-target=".bd-example-modal-lg">View Product</button>
                 </div>
               </div>
             </div>
@@ -540,9 +580,20 @@
           <div class="grid-item Church m-0">
             <div class="shadow-sm item py-2 m-2" style="width:180px">
               <div class="product font-inter">
-                <button type="button" class="btn p-0" data-toggle="modal" data-target=".bd-example-modal-lg"><img src="assets/product-4.jpg" alt="product-1" class="img-fluid" style="width: 178px; height: 222.3px;"></button>
+                <!--Pop Up Details-->
+                <button type="button" class="btn p-0" data-toggle="modal" data-target=".bd-example-modal-lg">
+                  <img src="assets/product-1.jpg" alt="product-1" class="img-fluid" style="width: 178px; height: 222.3px;">
+                </button>
+                <!-- End Pop Up Details-->
                 <div class="text-center mt-3">
-                  <h6>Kaftan Men</h6>
+                  <div class="row d-flex justify-content-between">
+                    <h6 class="mt-2 ml-3">Kaftan Men</h6>
+                    <button class="btn btn-wishlist" style="color: black;">
+                      <svg id="btn_wishlist" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" onclick="myFunction(this)" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                    </button>
+                    
+                  </div>
+                  
                   <div class="rating text-warning font-size-12">
                     <span><i class="fas fa-star"></i></span>
                     <span><i class="fas fa-star"></i></span>
@@ -550,10 +601,11 @@
                     <span><i class="fas fa-star"></i></span>
                     <span><i class="far fa-star"></i></span>
                   </div>
-                  <div class="price py-2">
-                    <span>$150</span>
+                  <div class="price py-2 text-left ml-3">
+                    <strike ><span class="text-muted">$150</span></strike>
+                    <p>$150</p>
                   </div>
-                  <button type="submit" class="btn btn-product font-size-12">View Product</button>
+                  <button type="submit" class="btn btn-product font-size-12"data-toggle="modal" data-target=".bd-example-modal-lg">View Product</button>
                 </div>
               </div>
             </div>
@@ -573,24 +625,7 @@
       </div>
     </section>
     <!--End Banner ads-->
-    <!--Shop Now Banner-->
-    <section id="shop-now">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <img src="/assets/shop-now.jpg" alt="shop-now" class="img-fluid ">
-            <div class="align-left">
-              <h4>em;kds;fk</h4>
-              <button class="btn  btn-secondary border-2">Click</button>
-            </div>
-          </div>
-          <div class="col">
-            <img src="/assets/shop-now.jpg" alt="shop-now" class="img-fluid ">
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--Shop Now Banner-->
+
 
     <!--New Clothes-->
     <section id="new-clothes">
@@ -599,11 +634,22 @@
         <hr>
         <!--Owl carousel-->
       <div class="owl-carousel owl-theme">
-        <div class="item py-2  m-2" style="width:180px">
+        <div class="shadow-sm item py-2 m-2" style="width:180px">
           <div class="product font-inter">
-            <button type="button" class="btn p-0" data-toggle="modal" data-target=".bd-example-modal-lg"><img src="assets/product-1.jpg" alt="product-1" class="img-fluid"></button>
+            <!--Pop Up Details-->
+            <button type="button" class="btn p-0" data-toggle="modal" data-target=".bd-example-modal-lg">
+              <img src="assets/product-1.jpg" alt="product-1" class="img-fluid" style="width: 178px; height: 222.3px;">
+            </button>
+            <!-- End Pop Up Details-->
             <div class="text-center mt-3">
-              <h6>Kaftan Men</h6>
+              <div class="row d-flex justify-content-between">
+                <h6 class="mt-2 ml-3">Kaftan Men</h6>
+                <button class="btn btn-wishlist" style="color: black;">
+                  <svg id="btn_wishlist" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" onclick="myFunction(this)" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                </button>
+                
+              </div>
+              
               <div class="rating text-warning font-size-12">
                 <span><i class="fas fa-star"></i></span>
                 <span><i class="fas fa-star"></i></span>
@@ -611,18 +657,30 @@
                 <span><i class="fas fa-star"></i></span>
                 <span><i class="far fa-star"></i></span>
               </div>
-              <div class="price py-2">
-                <span>$150</span>
+              <div class="price py-2 text-left ml-3">
+                <strike ><span class="text-muted">$150</span></strike>
+                <p>$150</p>
               </div>
-              <button type="submit" class="btn btn-product font-size-12">View Product</button>
+              <button type="submit" class="btn btn-product font-size-12"data-toggle="modal" data-target=".bd-example-modal-lg">View Product</button>
             </div>
           </div>
         </div>
-        <div class="item py-2 m-2" style="width:180px">
+        <div class="shadow-sm item py-2 m-2" style="width:180px">
           <div class="product font-inter">
-            <button type="button" class="btn p-0" data-toggle="modal" data-target=".bd-example-modal-lg"><img src="assets/product-2.jpg" alt="product-1" class="img-fluid"></button>
+            <!--Pop Up Details-->
+            <button type="button" class="btn p-0" data-toggle="modal" data-target=".bd-example-modal-lg">
+              <img src="assets/product-1.jpg" alt="product-1" class="img-fluid" style="width: 178px; height: 222.3px;">
+            </button>
+            <!-- End Pop Up Details-->
             <div class="text-center mt-3">
-              <h6>Kaftan Men</h6>
+              <div class="row d-flex justify-content-between">
+                <h6 class="mt-2 ml-3">Kaftan Men</h6>
+                <button class="btn btn-wishlist" style="color: black;">
+                  <svg id="btn_wishlist" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" onclick="myFunction(this)" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                </button>
+                
+              </div>
+              
               <div class="rating text-warning font-size-12">
                 <span><i class="fas fa-star"></i></span>
                 <span><i class="fas fa-star"></i></span>
@@ -630,18 +688,30 @@
                 <span><i class="fas fa-star"></i></span>
                 <span><i class="far fa-star"></i></span>
               </div>
-              <div class="price py-2">
-                <span>$150</span>
+              <div class="price py-2 text-left ml-3">
+                <strike ><span class="text-muted">$150</span></strike>
+                <p>$150</p>
               </div>
-              <button type="submit" class="btn btn-product font-size-12">View Product</button>
+              <button type="submit" class="btn btn-product font-size-12"data-toggle="modal" data-target=".bd-example-modal-lg">View Product</button>
             </div>
           </div>
         </div>
-        <div class="item py-2 m-2" style="width:180px">
+        <div class="shadow-sm item py-2 m-2" style="width:180px">
           <div class="product font-inter">
-            <button type="button" class="btn p-0" data-toggle="modal" data-target=".bd-example-modal-lg"><img src="assets/product-3.jpg" alt="product-1" class="img-fluid"></button>
+            <!--Pop Up Details-->
+            <button type="button" class="btn p-0" data-toggle="modal" data-target=".bd-example-modal-lg">
+              <img src="assets/product-1.jpg" alt="product-1" class="img-fluid" style="width: 178px; height: 222.3px;">
+            </button>
+            <!-- End Pop Up Details-->
             <div class="text-center mt-3">
-              <h6>Kaftan Men</h6>
+              <div class="row d-flex justify-content-between">
+                <h6 class="mt-2 ml-3">Kaftan Men</h6>
+                <button class="btn btn-wishlist" style="color: black;">
+                  <svg id="btn_wishlist" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" onclick="myFunction(this)" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                </button>
+                
+              </div>
+              
               <div class="rating text-warning font-size-12">
                 <span><i class="fas fa-star"></i></span>
                 <span><i class="fas fa-star"></i></span>
@@ -649,18 +719,30 @@
                 <span><i class="fas fa-star"></i></span>
                 <span><i class="far fa-star"></i></span>
               </div>
-              <div class="price py-2">
-                <span>$150</span>
+              <div class="price py-2 text-left ml-3">
+                <strike ><span class="text-muted">$150</span></strike>
+                <p>$150</p>
               </div>
-              <button type="submit" class="btn btn-product font-size-12">View Product</button>
+              <button type="submit" class="btn btn-product font-size-12"data-toggle="modal" data-target=".bd-example-modal-lg">View Product</button>
             </div>
           </div>
         </div>
-        <div class="item py-2 m-2" style="width:180px">
+        <div class="shadow-sm item py-2 m-2" style="width:180px">
           <div class="product font-inter">
-            <button type="button" class="btn p-0" data-toggle="modal" data-target=".bd-example-modal-lg"><img src="assets/product-4.jpg" alt="product-1" class="img-fluid"></button>
+            <!--Pop Up Details-->
+            <button type="button" class="btn p-0" data-toggle="modal" data-target=".bd-example-modal-lg">
+              <img src="assets/product-1.jpg" alt="product-1" class="img-fluid" style="width: 178px; height: 222.3px;">
+            </button>
+            <!-- End Pop Up Details-->
             <div class="text-center mt-3">
-              <h6>Kaftan Men</h6>
+              <div class="row d-flex justify-content-between">
+                <h6 class="mt-2 ml-3">Kaftan Men</h6>
+                <button class="btn btn-wishlist" style="color: black;">
+                  <svg id="btn_wishlist" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" onclick="myFunction(this)" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                </button>
+                
+              </div>
+              
               <div class="rating text-warning font-size-12">
                 <span><i class="fas fa-star"></i></span>
                 <span><i class="fas fa-star"></i></span>
@@ -668,18 +750,30 @@
                 <span><i class="fas fa-star"></i></span>
                 <span><i class="far fa-star"></i></span>
               </div>
-              <div class="price py-2">
-                <span>$150</span>
+              <div class="price py-2 text-left ml-3">
+                <strike ><span class="text-muted">$150</span></strike>
+                <p>$150</p>
               </div>
-              <button type="submit" class="btn btn-product font-size-12">View Product</button>
+              <button type="submit" class="btn btn-product font-size-12"data-toggle="modal" data-target=".bd-example-modal-lg">View Product</button>
             </div>
           </div>
         </div>
-        <div class="item py-2 m-2" style="width:180px">
+        <div class="shadow-sm item py-2 m-2" style="width:180px">
           <div class="product font-inter">
-            <button type="button" class="btn p-0" data-toggle="modal" data-target=".bd-example-modal-lg"><img src="assets/product-4.jpg" alt="product-1" class="img-fluid"></button>
+            <!--Pop Up Details-->
+            <button type="button" class="btn p-0" data-toggle="modal" data-target=".bd-example-modal-lg">
+              <img src="assets/product-1.jpg" alt="product-1" class="img-fluid" style="width: 178px; height: 222.3px;">
+            </button>
+            <!-- End Pop Up Details-->
             <div class="text-center mt-3">
-              <h6>Kaftan Men</h6>
+              <div class="row d-flex justify-content-between">
+                <h6 class="mt-2 ml-3">Kaftan Men</h6>
+                <button class="btn btn-wishlist" style="color: black;">
+                  <svg id="btn_wishlist" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" onclick="myFunction(this)" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                </button>
+                
+              </div>
+              
               <div class="rating text-warning font-size-12">
                 <span><i class="fas fa-star"></i></span>
                 <span><i class="fas fa-star"></i></span>
@@ -687,18 +781,30 @@
                 <span><i class="fas fa-star"></i></span>
                 <span><i class="far fa-star"></i></span>
               </div>
-              <div class="price py-2">
-                <span>$150</span>
+              <div class="price py-2 text-left ml-3">
+                <strike ><span class="text-muted">$150</span></strike>
+                <p>$150</p>
               </div>
-              <button type="submit" class="btn btn-product font-size-12">View Product</button>
+              <button type="submit" class="btn btn-product font-size-12"data-toggle="modal" data-target=".bd-example-modal-lg">View Product</button>
             </div>
           </div>
         </div>
-        <div class="item py-2 m-2" style="width:180px">
+        <div class="shadow-sm item py-2 m-2" style="width:180px">
           <div class="product font-inter">
-            <button type="button" class="btn p-0" data-toggle="modal" data-target=".bd-example-modal-lg"><img src="assets/product-5.jpg" alt="product-1" class="img-fluid"></button>
+            <!--Pop Up Details-->
+            <button type="button" class="btn p-0" data-toggle="modal" data-target=".bd-example-modal-lg">
+              <img src="assets/product-1.jpg" alt="product-1" class="img-fluid" style="width: 178px; height: 222.3px;">
+            </button>
+            <!-- End Pop Up Details-->
             <div class="text-center mt-3">
-              <h6>Kaftan Men</h6>
+              <div class="row d-flex justify-content-between">
+                <h6 class="mt-2 ml-3">Kaftan Men</h6>
+                <button class="btn btn-wishlist" style="color: black;">
+                  <svg id="btn_wishlist" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" onclick="myFunction(this)" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                </button>
+                
+              </div>
+              
               <div class="rating text-warning font-size-12">
                 <span><i class="fas fa-star"></i></span>
                 <span><i class="fas fa-star"></i></span>
@@ -706,10 +812,11 @@
                 <span><i class="fas fa-star"></i></span>
                 <span><i class="far fa-star"></i></span>
               </div>
-              <div class="price py-2">
-                <span>$150</span>
+              <div class="price py-2 text-left ml-3">
+                <strike ><span class="text-muted">$150</span></strike>
+                <p>$150</p>
               </div>
-              <button type="submit" class="btn btn-product font-size-12">View Product</button>
+              <button type="submit" class="btn btn-product font-size-12"data-toggle="modal" data-target=".bd-example-modal-lg">View Product</button>
             </div>
           </div>
         </div>

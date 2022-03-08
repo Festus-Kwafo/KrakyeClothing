@@ -34,3 +34,13 @@ button, button:focus {
 .btn-width{
     width: 100% !important;
 }
+
+.show_color{
+    fill: red;
+    stroke: none;
+}
+.no_color{
+    fill: none;
+    stroke: currentColor;
+}
+
