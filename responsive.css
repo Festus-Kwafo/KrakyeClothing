@@ -2,6 +2,7 @@
 .phone-slide {
     display: none !important;
 }
+
 @media only screen and (min-width : 320px) and (max-width : 480px){
     .carousel-control-prev, .carousel-control-next{
         display: none;
@@ -89,4 +90,16 @@
         border-top-right-radius: unset;
         border-bottom-left-radius: 1rem
     }
+}
+
+@media only screen and (max-width: 479px) {
+	.product-short .nice-select {
+		margin-bottom: 5px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.product-short .nice-select {
+		width: 180px;
+	}
 }

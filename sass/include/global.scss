@@ -44,3 +44,38 @@ button, button:focus {
     stroke: currentColor;
 }
 
+.old-price{
+    text-decoration: line-through;
+}
+
+.product-short {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+.product-short > p {
+    font-size: 14px;
+    margin: 5px 10px 0 0;
+  }
+.product-short .nice-select {
+      border-radius: 0;
+      color: #242424;
+      font-size: 14px;
+      height: 30px;
+      line-height: 30px;
+      width: 320px;
+      z-index: 999;
+  }
+
+.product-short .nice-select .list {
+    border-radius: 0px;
+    width: 100%;
+    z-index: 99;
+  }
+
+.product-short  .nice-select .option {
+    line-height: 30px;
+    min-height: 30px;
+  }
+  

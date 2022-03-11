@@ -1,0 +1,47 @@
+/* Pagination Templates*/
+
+.li-pagination-area {
+	border-top: 1px solid #414040;
+}
+.li-pagination-area .li-pagination-box li {
+	display: inline-block;
+}
+.li-pagination-area .li-pagination-box li a {
+	color: #242424;
+	padding: 10px;
+}
+.li-pagination-area .li-pagination-box li.active a {
+	color: #fed700;
+}
+.li-pagination-area .li-pagination-box li a:hover {
+	color: #fed700;
+}
+.pagination-area {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 40px 0 0 !important;
+    padding: 9px !important;
+  }
+  .pagination-area p {
+    margin: 0;
+  }
+  .pagination-box {
+    text-align: right;
+  }
+  .pagination-box > li {
+    display: inline-block;
+  }
+  .pagination-box > li.active a {
+    color: #fed700;
+  }
+  .pagination-box > li a {
+    color: #333333;
+    display: block;
+    padding: 0 10px !important;
+  }
+  .pagination-box > li a:hover {
+      color: #fed700;
+  }
+  
