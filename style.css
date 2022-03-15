@@ -329,6 +329,10 @@ a:hover {
   border-radius: 50%;
 }
 
+.rounded {
+  border-radius: 1.3rem !important;
+}
+
 /*Cart Template*/
 .card {
   margin: auto;
