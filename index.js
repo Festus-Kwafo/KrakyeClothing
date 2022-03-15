@@ -1,3 +1,5 @@
+console.log('Hello World')
+
 $(document).ready(function(){
     //banner owl carousel
     $("#banner-area .owl-carousel").owlCarousel({
@@ -98,4 +100,3 @@ function myFunction(x) {
     x.classList.toggle("show_color");
   }
 
-console.log('Hello World')
