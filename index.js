@@ -97,3 +97,5 @@ $(function(){
 function myFunction(x) {
     x.classList.toggle("show_color");
   }
+
+console.log('Hello World')
