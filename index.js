@@ -1,4 +1,3 @@
-console.log("Hello guys")
 $(document).ready(function(){
     //banner owl carousel
     $("#banner-area .owl-carousel").owlCarousel({
